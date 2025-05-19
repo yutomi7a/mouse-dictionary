@@ -33,5 +33,11 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "web_accessible_resources": ["data/*.json"]
+  "web_accessible_resources": ["data/*.json"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "dictionary4firefox@example.org",
+      "strict_min_version": "136.0"
+    }
+  }
 }
