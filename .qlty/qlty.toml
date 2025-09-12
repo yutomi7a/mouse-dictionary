@@ -1,0 +1,22 @@
+exclude_patterns  = [
+  "dist*/",
+  "coverage/",
+  "node_modules/",
+  "__test__/",
+  "static/",
+  "static_pdf/",
+  ".git/",
+  ".github/",
+  ".vscode/",
+  ".dic/",
+  ".tools/",
+  ".tempfile/",
+  ".serena/",
+  ".claude/",
+  "*.zip",
+  "*.min.js",
+  "*.min.css"
+]
+
+[smells.return_statements]
+threshold = 10
